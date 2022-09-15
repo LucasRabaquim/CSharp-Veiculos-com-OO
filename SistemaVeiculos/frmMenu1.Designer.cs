@@ -1,6 +1,6 @@
 ﻿namespace SistemaVeiculos
 {
-    partial class Form1
+    partial class frmMenu1
     {
         /// <summary>
         /// Required designer variable.

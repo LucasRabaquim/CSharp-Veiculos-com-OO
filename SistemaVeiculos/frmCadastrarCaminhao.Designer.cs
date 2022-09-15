@@ -1,6 +1,6 @@
 ﻿namespace SistemaVeiculos
 {
-    partial class CadastrarCaminhao
+    partial class frmCadastrarCaminhao
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.btnSair.Location = new System.Drawing.Point(853, 350);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(166, 55);
-            this.btnSair.TabIndex = 38;
+            this.btnSair.TabIndex = 10;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
@@ -64,7 +64,7 @@
             this.btnConsultar.Location = new System.Drawing.Point(450, 350);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(166, 55);
-            this.btnConsultar.TabIndex = 37;
+            this.btnConsultar.TabIndex = 9;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
@@ -73,11 +73,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(619, 192);
+            this.label7.Location = new System.Drawing.Point(594, 187);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 21);
+            this.label7.Size = new System.Drawing.Size(115, 21);
             this.label7.TabIndex = 36;
-            this.label7.Text = "Altura";
+            this.label7.Text = "Altura (metros)";
             // 
             // label8
             // 
@@ -95,9 +95,9 @@
             this.labe.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labe.Location = new System.Drawing.Point(594, 114);
             this.labe.Name = "labe";
-            this.labe.Size = new System.Drawing.Size(110, 21);
+            this.labe.Size = new System.Drawing.Size(156, 21);
             this.labe.TabIndex = 34;
-            this.labe.Text = "Carga Máxima";
+            this.labe.Text = "Carga Máxima (Kg/L)";
             // 
             // txtAltura
             // 
@@ -105,7 +105,7 @@
             this.txtAltura.Location = new System.Drawing.Point(759, 184);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(273, 29);
-            this.txtAltura.TabIndex = 33;
+            this.txtAltura.TabIndex = 7;
             // 
             // txtTipoCarga
             // 
@@ -113,7 +113,7 @@
             this.txtTipoCarga.Location = new System.Drawing.Point(759, 149);
             this.txtTipoCarga.Name = "txtTipoCarga";
             this.txtTipoCarga.Size = new System.Drawing.Size(273, 29);
-            this.txtTipoCarga.TabIndex = 32;
+            this.txtTipoCarga.TabIndex = 6;
             // 
             // txtCargaMax
             // 
@@ -121,7 +121,7 @@
             this.txtCargaMax.Location = new System.Drawing.Point(759, 114);
             this.txtCargaMax.Name = "txtCargaMax";
             this.txtCargaMax.Size = new System.Drawing.Size(273, 29);
-            this.txtCargaMax.TabIndex = 31;
+            this.txtCargaMax.TabIndex = 5;
             // 
             // label6
             // 
@@ -178,7 +178,7 @@
             this.btnCadastrar.Location = new System.Drawing.Point(73, 350);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(166, 55);
-            this.btnCadastrar.TabIndex = 25;
+            this.btnCadastrar.TabIndex = 8;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -189,7 +189,7 @@
             this.txtEstadoPlaca.Location = new System.Drawing.Point(208, 219);
             this.txtEstadoPlaca.Name = "txtEstadoPlaca";
             this.txtEstadoPlaca.Size = new System.Drawing.Size(273, 29);
-            this.txtEstadoPlaca.TabIndex = 24;
+            this.txtEstadoPlaca.TabIndex = 4;
             // 
             // txtAbasteciment
             // 
@@ -197,7 +197,7 @@
             this.txtAbasteciment.Location = new System.Drawing.Point(208, 184);
             this.txtAbasteciment.Name = "txtAbasteciment";
             this.txtAbasteciment.Size = new System.Drawing.Size(273, 29);
-            this.txtAbasteciment.TabIndex = 23;
+            this.txtAbasteciment.TabIndex = 3;
             // 
             // txtQtdRodas
             // 
@@ -205,7 +205,7 @@
             this.txtQtdRodas.Location = new System.Drawing.Point(208, 149);
             this.txtQtdRodas.Name = "txtQtdRodas";
             this.txtQtdRodas.Size = new System.Drawing.Size(273, 29);
-            this.txtQtdRodas.TabIndex = 22;
+            this.txtQtdRodas.TabIndex = 2;
             // 
             // txtModelo
             // 
@@ -213,7 +213,7 @@
             this.txtModelo.Location = new System.Drawing.Point(208, 114);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(273, 29);
-            this.txtModelo.TabIndex = 21;
+            this.txtModelo.TabIndex = 1;
             // 
             // txtMarca
             // 
@@ -221,9 +221,9 @@
             this.txtMarca.Location = new System.Drawing.Point(208, 79);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(273, 29);
-            this.txtMarca.TabIndex = 20;
+            this.txtMarca.TabIndex = 0;
             // 
-            // CadastrarCaminhao
+            // frmCadastrarCaminhao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -247,7 +247,7 @@
             this.Controls.Add(this.txtQtdRodas);
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.txtMarca);
-            this.Name = "CadastrarCaminhao";
+            this.Name = "frmCadastrarCaminhao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarCaminhao";
             this.ResumeLayout(false);

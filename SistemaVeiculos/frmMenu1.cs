@@ -10,27 +10,30 @@ using System.Windows.Forms;
 
 namespace SistemaVeiculos
 {
-    public partial class Form1 : Form
+    public partial class frmMenu1 : Form
     {
-        public Form1()
+        public frmMenu1()
         {
             InitializeComponent();
         }
 
+        // Botão que instância a tela para cadastro de carros e apresenta ela.
         private void btnCarro_Click(object sender, EventArgs e)
         {
-            CadastrarCarro carro = new CadastrarCarro();
+            frmCadastrarCarro carro = new frmCadastrarCarro();
             this.Hide();
             carro.Show();
         }
 
+        // Botão que instância a tela para cadastro de caminhões e apresenta ela.
         private void btnCaminhao_Click(object sender, EventArgs e)
         {
-            CadastrarCaminhao caminhao = new CadastrarCaminhao();
+            frmCadastrarCaminhao caminhao = new frmCadastrarCaminhao();
             this.Hide();
             caminhao.Show();
         }
 
+        // Botão que sai do programa
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();

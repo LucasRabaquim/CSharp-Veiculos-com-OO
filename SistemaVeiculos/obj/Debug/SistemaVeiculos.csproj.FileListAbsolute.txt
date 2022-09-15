@@ -25,3 +25,17 @@ C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\SistemaVeiculos\Sistem
 C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\SistemaVeiculos\SistemaVeiculos\obj\Debug\SistemaVeiculos.exe
 C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\SistemaVeiculos\SistemaVeiculos\obj\Debug\SistemaVeiculos.pdb
 T:\2 ETIM DS\2ETIMDS-LUCAS_E_POLIANNA\CSharp\SistemaVeiculos\SistemaVeiculos\obj\Debug\SistemaVeiculos.CadastrarCaminhao.resources
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\bin\Debug\SistemaVeiculos.exe.config
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\bin\Debug\SistemaVeiculos.exe
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\bin\Debug\SistemaVeiculos.pdb
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.csproj.SuggestedBindingRedirects.cache
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.Carros.resources
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.Properties.Resources.resources
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.csproj.GenerateResource.cache
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.exe
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.pdb
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.frmCadastrarCarro.resources
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.frmMenu1.resources
+C:\Users\lucas\OneDrive - Etec Centro Paula Souza\Desktop\BG 2022\Técnico\DS\CSharp-veiculos-com-OO\CSharp-Veiculos-com-OO\SistemaVeiculos\obj\Debug\SistemaVeiculos.frmCadastrarCaminhao.resources

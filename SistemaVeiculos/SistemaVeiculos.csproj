@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadastrarCaminhao.cs">
+    <Compile Include="frmCadastrarCaminhao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastrarCaminhao.Designer.cs">
-      <DependentUpon>CadastrarCaminhao.cs</DependentUpon>
+    <Compile Include="frmCadastrarCaminhao.Designer.cs">
+      <DependentUpon>frmCadastrarCaminhao.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastrarCarro.cs">
+    <Compile Include="frmCadastrarCarro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastrarCarro.Designer.cs">
-      <DependentUpon>CadastrarCarro.cs</DependentUpon>
+    <Compile Include="frmCadastrarCarro.Designer.cs">
+      <DependentUpon>frmCadastrarCarro.cs</DependentUpon>
     </Compile>
     <Compile Include="Caminhao.cs" />
     <Compile Include="Carro.cs" />
@@ -66,26 +66,26 @@
     <Compile Include="Carros.Designer.cs">
       <DependentUpon>Carros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMenu1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMenu1.Designer.cs">
+      <DependentUpon>frmMenu1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Veiculo.cs" />
-    <EmbeddedResource Include="CadastrarCaminhao.resx">
-      <DependentUpon>CadastrarCaminhao.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastrarCaminhao.resx">
+      <DependentUpon>frmCadastrarCaminhao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastrarCarro.resx">
-      <DependentUpon>CadastrarCarro.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastrarCarro.resx">
+      <DependentUpon>frmCadastrarCarro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Carros.resx">
       <DependentUpon>Carros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmMenu1.resx">
+      <DependentUpon>frmMenu1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

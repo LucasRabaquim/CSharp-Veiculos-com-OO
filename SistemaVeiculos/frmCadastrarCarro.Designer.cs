@@ -1,6 +1,6 @@
 ﻿namespace SistemaVeiculos
 {
-    partial class CadastrarCarro
+    partial class frmCadastrarCarro
     {
         /// <summary>
         /// Required designer variable.
@@ -94,7 +94,7 @@
             this.btnCadastrar.Location = new System.Drawing.Point(73, 345);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(166, 55);
-            this.btnCadastrar.TabIndex = 5;
+            this.btnCadastrar.TabIndex = 8;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -175,9 +175,9 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(557, 112);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(180, 21);
+            this.label9.Size = new System.Drawing.Size(202, 21);
             this.label9.TabIndex = 15;
-            this.label9.Text = "Tamanho do Porta Malas";
+            this.label9.Text = "Tamanho do Porta Malas (L)";
             // 
             // txtQtdAssentos
             // 
@@ -185,7 +185,7 @@
             this.txtQtdAssentos.Location = new System.Drawing.Point(759, 179);
             this.txtQtdAssentos.Name = "txtQtdAssentos";
             this.txtQtdAssentos.Size = new System.Drawing.Size(273, 29);
-            this.txtQtdAssentos.TabIndex = 14;
+            this.txtQtdAssentos.TabIndex = 7;
             // 
             // txtQtdPortas
             // 
@@ -193,7 +193,7 @@
             this.txtQtdPortas.Location = new System.Drawing.Point(759, 144);
             this.txtQtdPortas.Name = "txtQtdPortas";
             this.txtQtdPortas.Size = new System.Drawing.Size(273, 29);
-            this.txtQtdPortas.TabIndex = 13;
+            this.txtQtdPortas.TabIndex = 6;
             // 
             // txtPortaMalas
             // 
@@ -201,14 +201,14 @@
             this.txtPortaMalas.Location = new System.Drawing.Point(759, 109);
             this.txtPortaMalas.Name = "txtPortaMalas";
             this.txtPortaMalas.Size = new System.Drawing.Size(273, 29);
-            this.txtPortaMalas.TabIndex = 12;
+            this.txtPortaMalas.TabIndex = 5;
             // 
             // btnConsultar
             // 
             this.btnConsultar.Location = new System.Drawing.Point(450, 345);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(166, 55);
-            this.btnConsultar.TabIndex = 18;
+            this.btnConsultar.TabIndex = 9;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
             this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
@@ -218,12 +218,12 @@
             this.btnSair.Location = new System.Drawing.Point(853, 345);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(166, 55);
-            this.btnSair.TabIndex = 19;
+            this.btnSair.TabIndex = 10;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // CadastrarCarro
+            // frmCadastrarCarro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -247,7 +247,7 @@
             this.Controls.Add(this.txtQtdRodas);
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.txtMarca);
-            this.Name = "CadastrarCarro";
+            this.Name = "frmCadastrarCarro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastrarCarro";
             this.ResumeLayout(false);

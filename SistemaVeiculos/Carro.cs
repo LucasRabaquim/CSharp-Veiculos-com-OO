@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace SistemaVeiculos
 {
+    // Classe com atributos do carro herdando da atributos da classe veículo
     public class Carro : Veiculo
     {
-        public string TamanhoPortaMalas { get; set; }
+        // Atributos da classe carro
+        public int TamanhoPortaMalas { get; set; }
         public int QtdPortas { get; set; }
         public int QtdAcento { get; set; }
 
-        public Carro(string marca, string modelo, int qtdRodas, string tipoAbastecimento, string estadoPlaca, string tamanhoPortaMala, int qtdPortas, int qtdAcento)
+        // Construtor da classe carro
+        public Carro(string marca, string modelo, int qtdRodas, string tipoAbastecimento, string estadoPlaca, int tamanhoPortaMala, int qtdPortas, int qtdAcento)
         {
             this.Marca = marca;
             this.Modelo = modelo;
@@ -24,6 +27,7 @@ namespace SistemaVeiculos
             this.QtdAcento = qtdAcento;
         }
 
+        // Utilização do método da classe veículo, usando override para mudar o seu funcionamento. 
         public override string Consulta()
         {
             return base.Consulta() + $"Tamanho do portamalas: {TamanhoPortaMalas}\n" + 
